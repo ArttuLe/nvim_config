@@ -37,6 +37,38 @@ This document contains all keybindings configured in my Neovim setup, organized 
 |------------|-------------|
 | `<leader>gs` | Open Git status (vim-fugitive) |
 
+### Within Fugitive Status Window
+
+| Keybinding | Description |
+|------------|-------------|
+| `s` | Stage file/hunk under cursor |
+| `u` | Unstage file/hunk under cursor |
+| `=` | Toggle inline diff of file under cursor |
+| `-` | Toggle stage/unstage of file under cursor |
+| `cc` | Create a commit |
+| `ca` | Amend previous commit |
+| `dv` | View diff of file under cursor in vertical split |
+| `ds` | View diff of file under cursor in horizontal split |
+| `dd` | View diff of file under cursor |
+| `?` | Show help menu |
+| `p` | Run `git push` |
+| `P` | Run `git pull` |
+| `o` | Open file under cursor |
+| `gO` | Open file under cursor in a new tab |
+| `X` | Discard changes in file under cursor (with confirmation) |
+
+### Additional Git Commands
+
+| Command | Description |
+|---------|-------------|
+| `:Git blame` | Show git blame for current file |
+| `:Git log` | Show git log |
+| `:Git difftool` | Open git diff tool |
+| `:Git mergetool` | Open git merge tool |
+| `:Gclog` | Show commit history for current file |
+| `:Gread` | Read the current file from Git (git checkout) |
+| `:Gwrite` | Write the current file to Git (git add) |
+
 ## LSP (Language Server Protocol)
 
 These keybindings are active when a language server is attached to the current buffer.
